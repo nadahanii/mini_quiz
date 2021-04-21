@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// ignore: camel_case_types
 class ending extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -8,6 +9,7 @@ class ending extends StatelessWidget {
         backgroundColor: Colors.amber.shade200,
         body: Center(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Container(
                 width: 300.0,
@@ -22,7 +24,7 @@ class ending extends StatelessWidget {
                 ),
               ),
               Text(
-                'Congratulations! You\'ve reached the end of our quiz , and you deserve millions of schrute bucks.',
+                'Congratulations! You\'ve reached the end of the quiz , and you deserve millions of schrute bucks.',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 30.0,
